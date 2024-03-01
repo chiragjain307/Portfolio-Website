@@ -24,7 +24,7 @@ function Home() {
               <a href="https://www.linkedin.com/in/chirag-jain-77aa30148" className='text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2'>
                 <FaLinkedinIn className='text-[28px]' />
               </a>
-              <a href="https://github.com/ChiragKasliwal307" className='text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2'>
+              <a href="https://github.com/chiragjain307" className='text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2'>
                 <AiFillGithub className='text-[28px]' />
               </a>
               <a href="https://twitter.com/mr_kasliwal" className='text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2'>
