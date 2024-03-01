@@ -30,7 +30,7 @@ function Footer() {
                         <a href="https://www.linkedin.com/in/chirag-jain-77aa30148" className='text-white hover:text-fuchsia-800 transition-all duration-150 ease-in-out'>
                             <FaLinkedinIn className='text-[28px]' />
                         </a>
-                        <a href="https://github.com/ChiragKasliwal307" className='text-white hover:text-fuchsia-800 transition-all duration-150 ease-in-out'>
+                        <a href="https://github.com/chiragjain307" className='text-white hover:text-fuchsia-800 transition-all duration-150 ease-in-out'>
                             <AiFillGithub className='text-[28px]' />
                         </a>
                         <a href="https://twitter.com/mr_kasliwal" className='text-white hover:text-fuchsia-800 transition-all duration-150 ease-in-out'>
