@@ -11,7 +11,7 @@ function Footer() {
                     <p className='text-[16px] my-4'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, maiores.</p>
                 </div>
                 <div>
-                    <h2 className='text-[22px] font-semibold text-fuchsia-800 py-2 uppercase'>Services</h2>
+                    <h2 className='text-[22px] font-semibold text-fuchsia-800 py-2 uppercase'>TechStack</h2>
                     <ul className='text-[16px] my-4'>
                         <li className='my-2'>Web Design</li>
                         <li className='my-2'>Web Development</li>
@@ -30,7 +30,7 @@ function Footer() {
                         <a href="https://www.linkedin.com/in/chirag-jain-77aa30148" className='text-white hover:text-fuchsia-800 transition-all duration-150 ease-in-out'>
                             <FaLinkedinIn className='text-[28px]' />
                         </a>
-                        <a href="https://github.com/ChiragKasliwal307" className='text-white hover:text-fuchsia-800 transition-all duration-150 ease-in-out'>
+                        <a href="https://github.com/chiragjain307" className='text-white hover:text-fuchsia-800 transition-all duration-150 ease-in-out'>
                             <AiFillGithub className='text-[28px]' />
                         </a>
                         <a href="https://twitter.com/mr_kasliwal" className='text-white hover:text-fuchsia-800 transition-all duration-150 ease-in-out'>

@@ -12,7 +12,7 @@ function Home() {
   }, [1000])
 
   return (
-    <div className='lg:px-56 lg:py-0 px-10 py-20 text-center gap-5 lg:text-start flex lg:flex-row flex-col-reverse justify-between lg:gap-28 items-center'>
+    <div id='Home' className='lg:px-56 lg:py-0 px-10 py-20 text-center gap-5 lg:text-start flex lg:flex-row flex-col-reverse justify-between lg:gap-28 items-center'>
       <div className='h-full lg:py-40 flex flex-col justify-center lg:items-start items-center text-white'>
         <h1 data-aos='fade-right' className='text-[52px] font-semibold mb-8 leading-normal uppercase'>
           Welcome To <span className='text-fuchsia-500'>My Portfolio Website</span>
@@ -24,7 +24,7 @@ function Home() {
               <a href="https://www.linkedin.com/in/chirag-jain-77aa30148" className='text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2'>
                 <FaLinkedinIn className='text-[28px]' />
               </a>
-              <a href="https://github.com/ChiragKasliwal307" className='text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2'>
+              <a href="https://github.com/chiragjain307" className='text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2'>
                 <AiFillGithub className='text-[28px]' />
               </a>
               <a href="https://twitter.com/mr_kasliwal" className='text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2'>

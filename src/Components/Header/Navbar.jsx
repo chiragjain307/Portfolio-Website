@@ -21,9 +21,9 @@ function Navbar() {
                         About
                     </li>
                 </Link>
-                <Link to="Services" spy={true} smooth={true}>
+                <Link to="TechStack" spy={true} smooth={true}>
                     <li className='my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded'>
-                        Services
+                        TechStack
                     </li>
                 </Link>
                 <Link to="Projects" spy={true} smooth={true}>
@@ -43,7 +43,7 @@ function Navbar() {
     
     return (
         <>
-            <nav>
+            <nav className='sticky top-0 bg-slate-900'>
                 <div className='h-10vh flex justify-between z-50 text-white lg:py-5 px-20 py-4 border-b border-slate-800'>
                     <div className='flex items-center flex-1'>
                         <span className='text-3xl font-bold'>
@@ -61,8 +61,8 @@ function Navbar() {
                                 <li className='hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer'>About</li>
                             </Link>
 
-                            <Link to="Services" spy={true} smooth={true}>
-                                <li className='hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer'>Services</li>
+                            <Link to="TechStack" spy={true} smooth={true}>
+                                <li className='hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer'>TechStack</li>
                             </Link>
 
                             <Link to="Projects" spy={true} smooth={true}>

@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from './Components/Header/Navbar'
 import Home from './Components/Content/Home'
 import About from './Components/Content/About'
-import Services from './Components/Content/Services'
+import TechStack from './Components/Content/TechStack'
 import Projects from './Components/Content/Projects'
 import Contact from './Components/Content/Contact'
 import Footer from './Components/Footer/Footer'
@@ -40,7 +40,7 @@ import { BallTriangle } from 'react-loader-spinner'
             <Navbar />
             <Home />
             <About />
-            <Services />
+            <TechStack />
             <Projects />
             <Contact />
             <Footer />

@@ -21,7 +21,7 @@ function About() {
         <p data-aos='fade-left'>Computer science graduate with a specialization in cloud computing and virtualization. Recently completed an impactful internship at IBM, concluding in September 2023, where I played a key role in developing cloud-based solutions. Proficient in web development, I have acquired expertise in AWS tools like S3, Lambda, DynamoDB, and CloudFormation. My diverse background includes social work and volunteering, providing additional skills in IT management, SQL, and effective communication. Eager to leverage this comprehensive skill set and contribute to innovative projects in the dynamic field of web development.</p>
         <div className='flex mt-8 gap-2 space-x-2 items-center justify-center'>
           <a href={Resume}>
-            <div className='nano-button shadow-xl hover:shadow-fuchsia-800/50 text-white border-2 hover:bg-fuchsia-800 border-fuchsia-800 rounded-lg py-4 px-8 uppercase relative overflow-hidden'>
+            <div className='nano-button shadow-xl hover:shadow-fuchsia-800/50 text-white border-2 hover:bg-fuchsia-800 border-fuchsia-800 rounded-lg py-4 px-8 uppercase overflow-hidden'>
               Resume
             </div>
           </a>
