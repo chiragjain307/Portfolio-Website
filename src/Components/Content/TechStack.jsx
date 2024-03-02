@@ -12,11 +12,7 @@ function TechStack() {
     AOS.init({ duration: 1000 })
   }, [1000])
   return (
-<<<<<<< HEAD:src/Components/Content/TechStack.jsx
     <div id='TechStack' className='p-20 flex flex-col items-center justify-center'>
-=======
-    <div id='Services' className='p-20 flex flex-col items-center justify-center'>
->>>>>>> 42babd85cad95c5ffbf3ff73e31b71a9a74ced99:src/Components/Content/Services.jsx
       <h1 data-aos='fade-right' className='text-[52px] font-semibold mb-20 leading-normal uppercase text-fuchsia-500'>Tech Stack</h1>
       <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 justify-around gap-20'>
 
@@ -38,8 +34,4 @@ function TechStack() {
   )
 }
 
-<<<<<<< HEAD:src/Components/Content/TechStack.jsx
 export default TechStack
-=======
-export default Services
->>>>>>> 42babd85cad95c5ffbf3ff73e31b71a9a74ced99:src/Components/Content/Services.jsx
