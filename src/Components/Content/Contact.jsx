@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react'
+import React, { useEffect } from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
@@ -11,11 +11,11 @@ function Contact() {
       <h1 data-aos='fade-right' className='text-[52px] font-semibold mb-20 leading-normal uppercase text-fuchsia-500'>Contact Me</h1>
       <form action="https://api.web3forms.com/submit" method="POST" className='flex flex-col gap-2 lg:w-1/2'>
         <div className='lg:flex gap-6'>
-          <input type="hidden" name="access_key" value="a3acc553-464c-4fc0-ab60-2ba7b134788f"/>
-          <input type="text" className='w-full my-3 rounded-lg bg-slate-800 p-4 border-2 border-fuchsia-800 border-glow text-xl text-slate-500' placeholder='Enter Your Full Name' />
-          <input type="text" className='w-full my-3 rounded-lg bg-slate-800 p-4 border-2 border-fuchsia-800 border-glow text-xl text-slate-500' placeholder='Enter Your Email' />
+          <input type="hidden" name="access_key" value="a3acc553-464c-4fc0-ab60-2ba7b134788f" />
+          <input type="text" name="name" className='w-full my-3 rounded-lg bg-slate-800 p-4 border-2 border-fuchsia-800 border-glow text-xl text-slate-500' placeholder='Enter Your Full Name' />
+          <input type="email" name="email" className='w-full my-3 rounded-lg bg-slate-800 p-4 border-2 border-fuchsia-800 border-glow text-xl text-slate-500' placeholder='Enter Your Email' />
         </div>
-        <textarea className='w-full my-3 rounded-lg bg-slate-800 p-4 border-2 border-fuchsia-800 border-glow text-xl text-slate-500' placeholder='Enter Your Message...' name="" id="" cols="20" rows="10"></textarea>
+        <textarea name="message" className='w-full my-3 rounded-lg bg-slate-800 p-4 border-2 border-fuchsia-800 border-glow text-xl text-slate-500' placeholder='Enter Your Message...' cols="20" rows="10"></textarea>
         <button
           className='nano-button my-3 shadow-xl hover:shadow-fuchsia-800/50 text-white border-2 hover:bg-fuchsia-800 border-fuchsia-800 rounded-lg py-4 px-8 uppercase relative overflow-hidden border-glow'
           type="submit"
