@@ -9,8 +9,9 @@ function Contact() {
   return (
     <div id='Contact' className='p-4 lg:p-20 flex flex-col items-center justify-center'>
       <h1 data-aos='fade-right' className='text-[52px] font-semibold mb-20 leading-normal uppercase text-fuchsia-500'>Contact Me</h1>
-      <form action="" className='flex flex-col gap-2 lg:w-1/2'>
+      <form action="https://api.web3forms.com/submit" method="POST" className='flex flex-col gap-2 lg:w-1/2'>
         <div className='lg:flex gap-6'>
+          <input type="hidden" name="access_key" value="a3acc553-464c-4fc0-ab60-2ba7b134788f"/>
           <input type="text" className='w-full my-3 rounded-lg bg-slate-800 p-4 border-2 border-fuchsia-800 border-glow text-xl text-slate-500' placeholder='Enter Your Full Name' />
           <input type="text" className='w-full my-3 rounded-lg bg-slate-800 p-4 border-2 border-fuchsia-800 border-glow text-xl text-slate-500' placeholder='Enter Your Email' />
         </div>
