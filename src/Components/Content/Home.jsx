@@ -17,7 +17,8 @@ function Home() {
         <h1 data-aos='fade-right' className='text-[52px] font-semibold mb-8 leading-normal uppercase'>
           Welcome To <span className='text-fuchsia-500'>My Portfolio Website</span>
         </h1>
-        <p data-aos='fade-left'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita unde est quaerat distinctio exercitationem id a quas reiciendis quis necessitatibus, reprehenderit nam. Assumenda sit, non doloribus ullam quisquam ex. Sunt!</p>
+        <p data-aos='fade-left'>Hi, I'm a dedicated web developer based in Rajasthan, India. Drawing from a foundation in cloud computing and proficient knowledge of AWS services, I am constantly expanding my expertise in web development. With a diverse skill set, I aim to contribute innovatively to every project.
+</p>
         <div data-aos='fade-up' className='flex mt-8 gap-2'>
           <div className='flex items-center justify-center'>
             <div className='flex space-x-2'>

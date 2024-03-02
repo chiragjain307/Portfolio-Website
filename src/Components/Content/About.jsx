@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react'
+import React, { useEffect } from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import img from '../../assets/profile.jpg'
@@ -18,7 +18,13 @@ function About() {
         <h1 data-aos='fade-right' className='text-[52px] font-semibold mb-8 leading-normal text-fuchsia-500 uppercase'>
           About Me
         </h1>
-        <p data-aos='fade-left'>Computer science graduate with a specialization in cloud computing and virtualization. Recently completed an impactful internship at IBM, concluding in September 2023, where I played a key role in developing cloud-based solutions. Proficient in web development, I have acquired expertise in AWS tools like S3, Lambda, DynamoDB, and CloudFormation. My diverse background includes social work and volunteering, providing additional skills in IT management, SQL, and effective communication. Eager to leverage this comprehensive skill set and contribute to innovative projects in the dynamic field of web development.</p>
+        <p data-aos='fade-left '>
+          Hello, I'm Chirag, a front-end developer. I have a passion for building innovative web applications. I graduated from the University of  Petroleum and Energy Studies with a specialization in cloud computing and virtualization. Proficient in web development, I have acquired experience in AWS tools. During my time at university, I developed a keen interest in web development and decided to pursue it as a career.
+          <br/>
+          I have experience working with HTML, CSS, JavaScript, React, Redux,  SQL, and Git, and I'm always looking to expand my skill set. Eager to leverage this comprehensive skill set and contribute to innovative projects in the dynamic field of web development.
+          <br />
+          When I'm not coding, you can find me exploring new locations for an outing, hiking, or trying out new recipes in my kitchen. I'm a firm believer in work-life balance and strive to maintain a healthy lifestyle.
+        </p>
         <div className='flex mt-8 gap-2 space-x-2 items-center justify-center'>
           <a href={Resume}>
             <div className='nano-button shadow-xl hover:shadow-fuchsia-800/50 text-white border-2 hover:bg-fuchsia-800 border-fuchsia-800 rounded-lg py-4 px-8 uppercase overflow-hidden'>

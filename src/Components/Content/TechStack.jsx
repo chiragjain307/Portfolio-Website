@@ -5,6 +5,7 @@ import HTML from '../../assets/html.png'
 import CSS from '../../assets/css.png'
 import JS from '../../assets/javascript.png'
 import REACT from '../../assets/react.png'
+import TAILWIND from '../../assets/tailwind.png'
 
 
 function TechStack() {
@@ -23,9 +24,12 @@ function TechStack() {
           <img className='h-28' src={CSS} alt="" />
         </h2>
         <h2 data-aos='fade-up' className='text-[26px] flex items-center justify-center font-semibold text-fuchsia-800 rounded-3xl h-36 w-44 border-2 border-fuchsia-800 border-glow'>
-          <img className='h-28' src={JS} alt="" />
+          <img className='h-28' src={TAILWIND} alt="" />
         </h2>
         <h2 data-aos='fade-down' className='text-[26px] flex items-center justify-center font-semibold text-fuchsia-800 rounded-3xl h-36 w-44 border-2 border-fuchsia-800 border-glow'>
+          <img className='h-28' src={JS} alt="" />
+        </h2>
+        <h2 data-aos='fade-up' className='text-[26px] flex items-center justify-center font-semibold text-fuchsia-800 rounded-3xl h-36 w-44 border-2 border-fuchsia-800 border-glow'>
           <img className='h-28' src={REACT} alt="" />
         </h2>
         
