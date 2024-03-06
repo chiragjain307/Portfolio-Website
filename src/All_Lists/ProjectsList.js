@@ -14,7 +14,7 @@ const ProjectsList = [
     {
         id: 2,
         title: 'Current Weather WebApp',
-        link: 'https://app-write-blog-app.vercel.app',
+        link: 'https://weather-webapp-pro.vercel.app',
         github: 'https://github.com/chiragjain307/Weather-WebApp',
         image: img2
     },

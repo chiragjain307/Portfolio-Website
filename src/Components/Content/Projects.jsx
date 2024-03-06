@@ -19,7 +19,7 @@ function Projects() {
       
       {ProjectsList.map((project) => (
         <div key={project.id} data-aos={project.id % 2 === 0 ? 'fade-down' : 'fade-up'} className='flex flex-col'>
-          <a target="_blank" href={project.github}>
+          <a target="_blank" href={project.link}>
             <img className='text-[26px] flex items-center justify-center rounded-3xl h-40 w-60 p-1 border-2 border-fuchsia-800 border-glow' src={project.image} alt="project" />
           </a>
           <p className='flex gap-2 text-center h-full lg:mt-4 lg:items-center lg:justify-center mt-4 text-white'>

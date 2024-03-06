@@ -8,6 +8,11 @@
   </head>
   <body>
     <div id="root"></div>
+    <script>
+      document.addEventListener("visibilitychange", function() {
+        document.title = document.hidden ? "\u270b Don't forget this" : "Portfolio Website";
+      });
+    </script>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
