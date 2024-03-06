@@ -3,9 +3,12 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 
 function Contact() {
+  
+  //for animation of the content in a component
   useEffect(() => {
     AOS.init({ duration: 1000 })
   }, [1000])
+  
   return (
     <div id='Contact' className='p-4 lg:p-20 flex flex-col items-center justify-center'>
       <h1 data-aos='fade-right' className='text-[52px] font-semibold mb-20 leading-normal uppercase text-fuchsia-500'>Contact Me</h1>

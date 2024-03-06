@@ -39,6 +39,7 @@ function Navbar() {
             </ul>
         </div>
     </>
+    const navItems = ['Home', 'About', 'TechStack', 'Projects', 'Contact']
 
 
     return (
@@ -52,25 +53,11 @@ function Navbar() {
                     </div>
                     <div className='lg:flex md:flex flex-1 items-center justify-end font-normal hidden'>
                         <ul className='flex gap-8 mr-16 text-[18px]'>
-                            <Link to="Home" spy={true} smooth={true}>
-                                <li className='hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer'>Home</li>
-                            </Link>
-
-                            <Link to="About" spy={true} smooth={true}>
-                                <li className='hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer'>About</li>
-                            </Link>
-
-                            <Link to="TechStack" spy={true} smooth={true}>
-                                <li className='hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer'>TechStack</li>
-                            </Link>
-
-                            <Link to="Projects" spy={true} smooth={true}>
-                                <li className='hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer'>Projects</li>
-                            </Link>
-
-                            <Link to="Contact" spy={true} smooth={true}>
-                                <li className='hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer'>Contact</li>
-                            </Link>
+                            {navItems.map((item, index) => (
+                                <Link key={index} to={item} spy={true} smooth={true}>
+                                    <li className='hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer'>{item}</li>
+                                </Link>
+                            ))}
                         </ul>
                     </div>
                     <div>
