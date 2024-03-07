@@ -37,12 +37,11 @@ function Footer() {
                     <div>
                         <h2 className='text-[22px] font-semibold text-fuchsia-800 py-2 uppercase'>Follow Me</h2>
                         <div className='flex space-x-4'>
-                            {social.map((social) => (
-                                <a target="_blank" href={social.link} className='text-white hover:text-fuchsia-800 transition-all duration-150 ease-in-out'>
+                            {social.map((social, index) => (
+                                <a key={index} target="_blank" href={social.link} className='text-white hover:text-fuchsia-800 transition-all duration-150 ease-in-out'>
                                 <div  className='text-[28px]'>
                                     {social.icon}
-                                </div>
-                                
+                                </div>                    
                             </a>
                             ))}
                         </div>

@@ -43,8 +43,8 @@ function Home() {
           <div className='flex items-center justify-center'>
             
             <div className='flex space-x-2'>
-              {social.map((social) => (
-                <a target="_blank" href={social.link} className='text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2'>
+              {social.map((social, index) => (
+                <a key={index} target="_blank" href={social.link} className='text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2'>
                 <div className='text-[28px]'>
                 {social.icon}
                 </div>

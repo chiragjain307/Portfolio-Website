@@ -20,20 +20,6 @@ import { BallTriangle } from 'react-loader-spinner'
       }, 1500)
     }, [])
 
-    //for changing the title of the page
-    useEffect(() => {
-      const handleRouteChange = () => {
-        document.title = "hello"; // Change this to the desired title format
-      };
-  
-      // Listen to the route changes
-      window.addEventListener('popstate', handleRouteChange);
-  
-      // Remove the listener when the component unmounts
-      return () => {
-        window.removeEventListener('popstate', handleRouteChange);
-      };
-    }, []);
 
     return (
       <>

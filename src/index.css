@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+[data-theme = "light"] {
+    --body_background: #fbfbfb;
+    --text_color: rgb(12, 12, 12);
+}
+
+*{
+    background-color: var(--body_background);
+    color: var(--text_color);
+
+}
+
 .glow {
     transition: all 0.3s ease-in-out;
 }
