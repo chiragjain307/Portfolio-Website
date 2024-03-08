@@ -39,7 +39,7 @@ import { BallTriangle } from 'react-loader-spinner'
 
           :
 
-          <div className='bg-slate-900'>
+          <div className=''>
             <Navbar />
             <Home />
             <About />
