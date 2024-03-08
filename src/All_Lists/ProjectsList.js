@@ -7,7 +7,7 @@ const ProjectsList = [
     {
         id: 1,
         title: 'Mega Blog APP',
-        link: 'https://app-write-blog-app.vercel.app',
+        link: 'https://bloging-webapp.vercel.app',
         github: 'https://github.com/chiragjain307/appWrite_blog_app',
         image: img1
     },
