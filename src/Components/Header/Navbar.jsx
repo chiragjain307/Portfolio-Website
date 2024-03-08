@@ -36,7 +36,7 @@ function Navbar() {
                         </Link>
                     ))}
                     <div>
-                        <label className="relative inline-flex items-center cursor-pointer">
+                        <label className="relative inline-flex items-center cursor-pointer	">
                             <input
                                 type="checkbox"
                                 value=""
@@ -44,7 +44,12 @@ function Navbar() {
                                 onChange={toggleTheme}
                                 checked={darkMode}
                             />
-                            <div className="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600">{light}</div>
+                            <div className="w-[49px] h-6 bg-slate-500 rounded-full peer-checked:after:translate-x-6 after:absolute after:top-[2px]  after:left-[2px] after:bg-gray-300 after:rounded-full after:h-5  after:w-5 after:transition-all">
+                                <img src={light} alt="light"
+                                    className="absolute w-4 z-10 m-[4px] text-white " />
+                                <img src={dark} alt="dark"
+                                    className="absolute w-4 z-10 m-[4px] text-white right-0 " />
+                            </div>
                         </label>
                     </div>
                 </ul>
@@ -78,22 +83,12 @@ function Navbar() {
                                         onChange={toggleTheme}
                                         checked={darkMode}
                                     />
-                                    <div className="w-[49px] h-6 bg-slate-500 rounded-full  
-                                    peer-checked:after:translate-x-6
-                                    after:absolute 
-                                    after:top-[2px] 
-                                    after:left-[2px] 
-                                    after:bg-gray-300 
-                                    after:rounded-full 
-                                    after:h-5 
-                                    after:w-5 
-                                    after:transition-all 
-                                   ">
-                                        <img src={light} alt="light" 
-                                        className="absolute w-4 z-10 m-[4px] text-white " />
-                                        <img src={dark} alt="dark" 
-                                        className="absolute w-4 z-10 m-[4px] text-white right-0 " />
-                                   </div>
+                                    <div className="w-[49px] h-6 bg-slate-500 rounded-full peer-checked:after:translate-x-6 after:absolute after:top-[2px]  after:left-[2px] after:bg-gray-300 after:rounded-full after:h-5  after:w-5 after:transition-all">
+                                        <img src={light} alt="light"
+                                            className="absolute w-4 z-10 m-[4px] text-white " />
+                                        <img src={dark} alt="dark"
+                                            className="absolute w-4 z-10 m-[4px] text-white right-0 " />
+                                    </div>
                                 </label>
                             </div>
                         </ul>
@@ -106,7 +101,7 @@ function Navbar() {
                     <div className='md:hidden'>
                         {click && content}
                     </div>
-                    
+
                 </div>
             </nav>
         </>

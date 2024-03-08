@@ -39,7 +39,7 @@ import { BallTriangle } from 'react-loader-spinner'
 
           :
 
-          <div className=''>
+          <>
             <Navbar />
             <Home />
             <About />
@@ -47,7 +47,7 @@ import { BallTriangle } from 'react-loader-spinner'
             <Projects />
             <Contact />
             <Footer />
-          </div>}
+          </>}
 
       </>
     )
