@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+
+/* for removing scrollbar in chrome, safari and opera */
+::-webkit-scrollbar {
+    display: none;
+}
+
 .glow {
     transition: all 0.3s ease-in-out;
 }
@@ -10,18 +16,18 @@
     box-shadow: 0 0 25px rgb(206, 71, 193);
 }
 
-.img_glow{
+.img_glow {
     box-shadow: 0 0 55px rgb(206, 71, 193);
 }
 
-.nano-button{
+.nano-button {
     transition: all 0.3s ease-in-out;
 }
 
-.nano-button:hover{
+.nano-button:hover {
     box-shadow: 0 0 15px rgb(206, 71, 193);
 }
 
-.border-glow{
+.border-glow {
     box-shadow: 0 0 15px rgb(206, 71, 193);
 }

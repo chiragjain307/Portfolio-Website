@@ -1,6 +1,7 @@
 import React from 'react'
 import { AiFillGithub } from 'react-icons/ai'
-import { FaLinkedinIn, FaTwitter, FaInstagram } from 'react-icons/fa'
+import { FaXTwitter } from "react-icons/fa6";
+import { FaLinkedinIn, FaInstagram } from 'react-icons/fa'
 
 function Footer() {
 
@@ -15,7 +16,7 @@ function Footer() {
         },
         {
           link: 'https://twitter.com/mr_kasliwal',
-          icon: <FaTwitter/>,
+          icon: <FaXTwitter/>,
         },
         {
           link: 'https://www.instagram.com/_mr_kasliwal_',
