@@ -25,6 +25,6 @@ If you have a feature request, feel free to [open a new issue](https://github.co
 
 ## License
 
-By contributing to urFolio, you agree that your contributions will be licensed under the [MIT License](LICENSE).
+By contributing to urFolio, you agree that your contributions will be licensed under the [MIT License](License).
 
 Thank you for your contribution! 🚀
