@@ -1,4 +1,4 @@
-import img1 from '../assets/img1.png'
+import img1 from '../assets/blog.png'
 import img2 from '../assets/weather.png'
 import img3 from '../assets/todoApp.png'
 import img4 from '../assets/img4.png'
