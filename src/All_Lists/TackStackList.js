@@ -4,6 +4,7 @@ import JS from '../assets/javascript.png'
 import REACT from '../assets/react.png'
 import TAILWIND from '../assets/tailwind.png'
 import REDUX from '../assets/redux.png'
+import GRADIO from '../assets/gradio.png'
 
 const TechStackList = [
     {
@@ -30,7 +31,10 @@ const TechStackList = [
         id: 6,
         image: REDUX,
     },
-    
+    {
+        id: 7,
+        image: GRADIO,
+    },    
 ]
 
 export default TechStackList
