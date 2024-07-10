@@ -8,22 +8,23 @@ import Contact from './Components/Content/Contact'
 import Footer from './Components/Footer/Footer'
 import { useEffect, useState } from 'react'
 import { BallTriangle } from 'react-loader-spinner'
+import { Analytics } from "@vercel/analytics/react"
 
-  function App() {
-    const [loading, setLoading] = useState(false)
-    
-    //for loading screen
-    useEffect(() => {
-      setLoading(true)
-      setTimeout(() => {
-        setLoading(false)
-      }, 1500)
-    }, [])
+function App() {
+  const [loading, setLoading] = useState(false)
+
+  //for loading screen
+  useEffect(() => {
+    setLoading(true)
+    setTimeout(() => {
+      setLoading(false)
+    }, 1500)
+  }, [])
 
 
-    return (
-      <>
-        {loading ?
+  return (
+    <>
+      {loading ?
         <div className="bg-slate-900 h-[100vh] flex justify-center items-center">
           <BallTriangle
             height={100}
@@ -35,22 +36,23 @@ import { BallTriangle } from 'react-loader-spinner'
             wrapperClass=""
             visible={true}
           />
-          </div>
+        </div>
 
-          :
+        :
 
-          <>
-            <Navbar />
-            <Home />
-            <About />
-            <TechStack />
-            <Projects />
-            <Contact />
-            <Footer />
-          </>}
+        <>
+          <Navbar />
+          <Home />
+          <About />
+          <TechStack />
+          <Projects />
+          <Contact />
+          <Footer />
+          <Analytics />
+        </>}
 
-      </>
-    )
-  }
+    </>
+  )
+}
 
 export default App
