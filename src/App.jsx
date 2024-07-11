@@ -9,6 +9,7 @@ import Footer from './Components/Footer/Footer'
 import { useEffect, useState } from 'react'
 import { BallTriangle } from 'react-loader-spinner'
 import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 function App() {
   const [loading, setLoading] = useState(false)
@@ -49,6 +50,7 @@ function App() {
           <Contact />
           <Footer />
           <Analytics />
+          <SpeedInsights />
         </>}
 
     </>
